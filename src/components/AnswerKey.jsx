@@ -5,11 +5,11 @@ import PropTypes from "prop-types";
 
 // STYLING WITH STYLED COMPONENTS
 const Key = styled.div`
-  width: 7.6rem;
-  height: 7.6rem;
+  width: 5.2rem;
+  height: 5.2rem;
   background-color: ${(props) =>
     props.correct ? "rgba(36, 99, 255);" : "rgba(36, 99, 255, 0.7);"};
-  font-size: 5.8rem;
+  font-size: 3.8rem;
   color: white;
   border-radius: 1.2rem;
   text-align: center;
